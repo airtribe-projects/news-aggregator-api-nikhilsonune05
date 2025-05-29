@@ -1,0 +1,247 @@
+{
+  "date": "2025-05-29T14:31:53.523Z",
+  "argv": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\test\\server.test.js"
+  ],
+  "execArgv": [
+    "--import=file:///E:/NIKHIL/NodeJs/Assignments/2.%20News%20Manager/news-aggregator-api-nikhilsonune05/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///E:/NIKHIL/NodeJs/Assignments/2.%20News%20Manager/news-aggregator-api-nikhilsonune05/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///E:/NIKHIL/NodeJs/Assignments/2.%20News%20Manager/news-aggregator-api-nikhilsonune05/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///E:/NIKHIL/NodeJs/Assignments/2.%20News%20Manager/news-aggregator-api-nikhilsonune05/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05",
+  "pid": 36496,
+  "ppid": 6944,
+  "parent": null,
+  "uuid": "c876d4a5-8467-4014-82e6-7393ace47a03",
+  "files": [
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\test\\server.test.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import.mjs",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import-loader.mjs",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\import.mjs",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\is-relative-require.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\export-line.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\munge-mocks.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\resolve-mock-entry-point.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\service-key.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\call-site-like.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\require-resolve.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-all-conditional-values.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-all-conditions.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-unique-condition-sets.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-all-exports.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-all-local-imports.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-conditional-value.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-import.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\is-windows.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\parse.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-conditional-values-list.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\errors.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\read-pkg.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-named-exports-list.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-export.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\star-glob.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\to-path.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\file-exists.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\find-dep-package.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\to-file-url.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-dependency-export.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-package-import.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\read-json.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\find-star-match.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\walk-up-path\\dist\\mjs\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\glob.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\has-magic.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\assert-valid-pattern.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\escape.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\ast.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\unescape.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\pattern.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\path-scurry\\dist\\mjs\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\walker.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\brace-expressions.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minipass\\dist\\esm\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\ignore.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\processor.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\loader.mjs",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\hooks.mjs",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service-client.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\app.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\routes\\userRoutes.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\controllers\\userController.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\models\\index.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\config.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\models\\userModel.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\routes\\newsRoutes.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\middlewares\\authMiddleware.js",
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\src\\routes\\preferenceRoutes.js"
+  ],
+  "sources": {
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\import.mjs": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\src\\import.mts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\src\\mock-service.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\is-relative-require.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\is-relative-require.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\export-line.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\src\\export-line.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\munge-mocks.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\src\\munge-mocks.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\resolve-mock-entry-point.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\src\\resolve-mock-entry-point.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\dist\\esm\\service-key.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\mock\\src\\service-key.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\call-site-like.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\src\\call-site-like.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\require-resolve.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\src\\require-resolve.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-all-conditional-values.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\get-all-conditional-values.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-all-conditions.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\get-all-conditions.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-unique-condition-sets.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\get-unique-condition-sets.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-all-exports.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-all-exports.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-all-local-imports.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-all-local-imports.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-conditional-value.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-conditional-value.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-import.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-import.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\is-windows.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\is-windows.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\dist\\esm\\parse.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\@tapjs\\stack\\src\\parse.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-conditional-values-list.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\get-conditional-values-list.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\errors.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\errors.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\read-pkg.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\read-pkg.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\get-named-exports-list.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\get-named-exports-list.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-export.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-export.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\star-glob.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\star-glob.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\to-path.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\to-path.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\file-exists.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\file-exists.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\find-dep-package.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\find-dep-package.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\to-file-url.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\to-file-url.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-dependency-export.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-dependency-export.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\resolve-package-import.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\resolve-package-import.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\read-json.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\read-json.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\dist\\esm\\find-star-match.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\resolve-import\\src\\find-star-match.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\walk-up-path\\dist\\mjs\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\walk-up-path\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\glob.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\glob.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\has-magic.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\has-magic.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\assert-valid-pattern.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\src\\assert-valid-pattern.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\escape.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\src\\escape.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\ast.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\src\\ast.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\unescape.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\src\\unescape.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\pattern.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\pattern.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\path-scurry\\dist\\mjs\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\path-scurry\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\walker.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\walker.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\dist\\mjs\\brace-expressions.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minimatch\\src\\brace-expressions.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minipass\\dist\\esm\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\minipass\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\ignore.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\ignore.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\path-scurry\\node_modules\\lru-cache\\src\\index.ts"
+    ],
+    "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\dist\\esm\\processor.js": [
+      "E:\\NIKHIL\\NodeJs\\Assignments\\2. News Manager\\news-aggregator-api-nikhilsonune05\\node_modules\\glob\\src\\processor.ts"
+    ]
+  },
+  "root": "c876d4a5-8467-4014-82e6-7393ace47a03",
+  "externalID": "test/server.test.js",
+  "code": 1,
+  "signal": null,
+  "runtime": 13036.1425
+}

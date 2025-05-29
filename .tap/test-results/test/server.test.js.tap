@@ -1,0 +1,201 @@
+TAP version 14
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT table_name FROM information_schema.tables WHERE table_schema = 'public' AND table_name = 'users'
+Database connected
+Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+Executing (default): INSERT INTO "users" ("id","email","name","password","preferences","createdAt","updatedAt") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING "id","email","name","password","preferences","createdAt","updatedAt";
+# Subtest: POST /api/v1/user/register - signup
+    not ok 1 - User registered
+      ---
+      compare: ===
+      at:
+        fileName: test\server.test.js
+        lineNumber: 16
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:16:5)
+      source: "tap.test('POST /api/v1/user/register - signup', async (t) => {\r
+      
+        \  const response = await
+        server.post('/api/v1/user/register').send(mockUser);\r
+      
+        \  t.equal(response.status, 201, 'User registered');\r
+      
+        ----^
+      
+        });\n"
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -201
+        +500
+      ...
+    
+    1..1
+not ok 1 - POST /api/v1/user/register - signup # time=455.853ms
+  ---
+  at:
+    fileName: test\server.test.js
+    lineNumber: 14
+    columnNumber: 5
+    typeName: Object
+  source: "let token = '';\r
+  
+    \r
+  
+    tap.test('POST /api/v1/user/register - signup', async (t) => {\r
+  
+    ----^
+  
+    \  const response = await
+    server.post('/api/v1/user/register').send(mockUser);\r
+  
+    \  t.equal(response.status, 201, 'User registered');\n"
+  ...
+
+# Subtest: POST /api/v1/user/register - missing email
+    ok 1 - Missing email returns 400
+    1..1
+ok 2 - POST /api/v1/user/register - missing email # time=6.814ms
+
+Executing (default): SELECT "id", "email", "name", "password", "preferences", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."email" = 'clarkasdf@superman.com';
+# Subtest: POST /api/v1/user/login - login success
+    ok 1 - Login success
+    ok 2 - Token received
+    1..2
+ok 3 - POST /api/v1/user/login - login success # time=318.018ms
+
+Executing (default): SELECT "id", "email", "name", "password", "preferences", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."email" = 'clarkasdf@superman.com';
+# Subtest: POST /api/v1/user/login - wrong password
+    ok 1 - Wrong password rejected
+    1..1
+ok 4 - POST /api/v1/user/login - wrong password # time=295.928ms
+
+Executing (default): SELECT "id", "email", "name", "password", "preferences", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."id" = 11;
+# Subtest: GET /api/v1/user/preferences - get preferences
+    ok 1 - Preferences fetched
+    ok 2 - Preferences object present
+    1..2
+ok 5 - GET /api/v1/user/preferences - get preferences # time=14.954ms
+
+# Subtest: GET /api/v1/user/preferences - no token
+    ok 1 - No token returns 401
+    1..1
+ok 6 - GET /api/v1/user/preferences - no token # time=8.463ms
+
+====================================
+{
+  categories: [ [32m'movies'[39m, [32m'comics'[39m, [32m'games'[39m ],
+  languages: [ [32m'en'[39m, [32m'es'[39m ]
+}
+====================================
+Executing (default): SELECT "id", "email", "name", "password", "preferences", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."id" = 11;
+# Subtest: PUT /api/v1/user/preferences - update preferences
+    ok 1 - Preferences updated
+    ok 2 - should be equivalent
+    ok 3 - should be equivalent
+    1..3
+ok 7 - PUT /api/v1/user/preferences - update preferences # time=17.772ms
+
+Executing (default): SELECT "id", "email", "name", "password", "preferences", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."id" = 11;
+# Subtest: GET /api/v1/preferences - verify updated
+    ok 1 - should be equal
+    ok 2 - should be equivalent
+    ok 3 - should be equivalent
+    1..3
+ok 8 - GET /api/v1/preferences - verify updated # time=14.295ms
+
+Executing (default): SELECT "id", "email", "name", "password", "preferences", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."id" = 11;
+====================================
+user {
+  dataValues: {
+    id: [33m11[39m,
+    email: [32m'clarkasdf@superman.com'[39m,
+    name: [32m'Clark Kent'[39m,
+    password: [32m'$2b$12$emv1kjJljZm.RdjCZpd5sujtq.PL/HaqFU221FUMlobmRUxPX6Fkm'[39m,
+    preferences: { languages: [36m[Array][39m, categories: [36m[Array][39m },
+    createdAt: [35m2025-05-29T14:28:48.534Z[39m,
+    updatedAt: [35m2025-05-29T14:28:49.251Z[39m
+  },
+  _previousDataValues: {
+    id: [33m11[39m,
+    email: [32m'clarkasdf@superman.com'[39m,
+    name: [32m'Clark Kent'[39m,
+    password: [32m'$2b$12$emv1kjJljZm.RdjCZpd5sujtq.PL/HaqFU221FUMlobmRUxPX6Fkm'[39m,
+    preferences: { languages: [36m[Array][39m, categories: [36m[Array][39m },
+    createdAt: [35m2025-05-29T14:28:48.534Z[39m,
+    updatedAt: [35m2025-05-29T14:28:49.251Z[39m
+  },
+  uniqno: [33m1[39m,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: [33mfalse[39m,
+    _schema: [1mnull[22m,
+    _schemaDelimiter: [32m''[39m,
+    raw: [33mtrue[39m,
+    attributes: [
+      [32m'id'[39m,
+      [32m'email'[39m,
+      [32m'name'[39m,
+      [32m'password'[39m,
+      [32m'preferences'[39m,
+      [32m'createdAt'[39m,
+      [32m'updatedAt'[39m
+    ]
+  },
+  isNewRecord: [33mfalse[39m
+}
+====================================
+# Subtest: GET /api/v1/news - fetch news
+    ok 1 - should be equal
+    not ok 2 - News received
+      ---
+      at:
+        fileName: test\server.test.js
+        lineNumber: 79
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:79:5)
+      source: "  const response = await
+        server.get('/api/v1/news').set('Authorization', `Bearer ${token}`);\r
+      
+        \  t.equal(response.status, 200);\r
+      
+        \  t.ok(response.body.news, 'News received');\r
+      
+        ----^
+      
+        });\n"
+      ...
+    
+    1..2
+not ok 9 - GET /api/v1/news - fetch news # time=393.146ms
+  ---
+  at:
+    fileName: test\server.test.js
+    lineNumber: 76
+    columnNumber: 5
+    typeName: Object
+  source: "});\r
+  
+    \r
+  
+    tap.test('GET /api/v1/news - fetch news', async (t) => {\r
+  
+    ----^
+  
+    \  const response = await server.get('/api/v1/news').set('Authorization',
+    `Bearer ${token}`);\r
+  
+    \  t.equal(response.status, 200);\n"
+  ...
+
+# Subtest: GET /api/v1/news - no token
+    ok 1 - Unauthorized news access
+    1..1
+ok 10 - GET /api/v1/news - no token # time=5.881ms
+
+1..10
